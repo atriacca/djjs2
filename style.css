@@ -1,0 +1,63 @@
+#fullWindow {
+    height: 1000px;
+    width: 1000px;
+}
+.square {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border: 1px solid grey;
+    background-color: lightgoldenrodyellow;    
+}
+#square1 {
+    color: lightgoldenrodyellow;
+
+}
+#square1:hover {
+    color: lightgoldenrodyellow;
+    background-color: red;
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+    transition-duration: 500ms;
+    transition-delay: 200ms;
+}#square2:hover {
+    border-radius: 20px;
+    box-shadow: 5px 10px #888888;
+    background-color: #000;    
+    transition-duration: 500ms;
+    transition-property: all;
+    transition-delay: 100ms;
+}
+#square3:hover {
+    box-shadow: 5px 10px purple;
+    border-radius: 50px 20px;
+    background-color: violet;    
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    transition-property: all;
+}
+#square4:hover {
+    height: 60px;
+    width: 200px;    
+    transition-duration: 500ms;
+    background-color: lightgreen;    
+    border: 5px solid green;
+}
+#square5 {
+    transition-property: width;
+    transition-duration: 2s;
+}
+#square5:hover {
+    padding: 20px;
+    color: purple;
+    background-color: orange;    
+    width: 300px;
+    border: 4px dashed red;
+}
+#square6:hover {
+    background-color: lightblue;  
+    margin: 50px;
+    border: 2px dotted blue;
+    color: magenta;
+}
